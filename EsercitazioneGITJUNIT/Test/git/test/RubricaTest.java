@@ -14,6 +14,8 @@ public class RubricaTest {
 		r=new Rubrica();
 	}
 	
+	
+	
 
 	
 	
