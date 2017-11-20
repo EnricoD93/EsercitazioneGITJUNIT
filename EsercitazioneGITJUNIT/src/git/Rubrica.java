@@ -11,17 +11,17 @@ public class Rubrica {
 		start();
 	}
 
-	void aggiungiContatto(String s) {
+	public void aggiungiContatto(String s) {
 		contatti.add(s);
 	}
 
-	String prendiContatto(String s) {
+	public String prendiContatto(String s) {
 		if (!contatti.contains(s))
 			throw new IllegalArgumentException("Invalid name: " + s);
 		return contatti.get(contatti.indexOf(s));
 	}
 
-	void rimuoviContatto(String s) {
+	public void rimuoviContatto(String s) {
 		if (contatti.contains(s))
 			contatti.remove(s);
 		else
