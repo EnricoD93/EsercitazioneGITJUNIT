@@ -8,7 +8,7 @@ public class Rubrica {
 	ArrayList<String> contatti;
 
 	public Rubrica() {
-		contatti = new ArrayList<>();
+		start();
 	}
 
 	void aggiungiContatto(String s) {
@@ -31,5 +31,9 @@ public class Rubrica {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+	}
+
+	public void start() {
+		contatti = new ArrayList<>();
 	}
 }
