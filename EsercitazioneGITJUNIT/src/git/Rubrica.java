@@ -33,6 +33,10 @@ public class Rubrica {
 			}
 	}
 
+	public ArrayList<String> getContatti(){
+		return contatti;
+	}
+	
 	public void start() {
 		contatti = new ArrayList<>();
 	}
