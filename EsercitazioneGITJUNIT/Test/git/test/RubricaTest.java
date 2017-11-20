@@ -10,12 +10,12 @@ import git.Rubrica;
 public class RubricaTest {
 
 	Rubrica r;
-	
-	
+
 	@Before
 	public void start() {
-		r=new Rubrica();
+		r = new Rubrica();
 	}
+
 	
 	@Test
 	public void aggiungiContattoTest() {
@@ -24,6 +24,10 @@ public class RubricaTest {
 	}
 	
 
-	
-	
+
+	@Test(expected = IllegalArgumentException.class)
+	public void prendiContattoTest() {
+		r.prendiContatto("ciao");
+	}
+
 }
