@@ -2,7 +2,6 @@ package git;
 
 import java.util.ArrayList;
 
-import javax.xml.crypto.dsig.spec.ExcC14NParameterSpec;
 
 public class Rubrica {
 	ArrayList<String> contatti;
